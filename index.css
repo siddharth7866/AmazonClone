@@ -7,6 +7,7 @@
   height: 60px;
   background-color: #232f3e;
   color: white;
+  display: flex;
 }
 .nav-logo {
   height: 50px;
@@ -16,11 +17,26 @@
   background-image: url(amazon_logo.png);
   background-size: cover;
   height: 50px;
-  width: 100px;
+  width: 100%;
 }
 .border {
   border: 2px solid transparent;
 }
 .border:hover {
-  border: 2px solid white;
+  border: 1.5px solid white;
+}
+
+.first-add {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+
+.second-add {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.add-icon {
+  display: flex;
+  align-items: center;
 }
