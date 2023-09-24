@@ -1,0 +1,20 @@
+* {
+  margin: 25px;
+  padding: 25px;
+  display: inline-block;
+}
+#g {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+}
+#r {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(255, 0, 100, 0.5);
+}
+#e {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(255, 0, 0, 0.5);
+}
