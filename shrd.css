@@ -1,12 +1,30 @@
-div {
-  height: 100%;
-  width: 100%;
-  background-color: aqua;
+.sid {
+  border: 2px solid black;
+  height: 400px;
+  width: 150px;
   text-align: center;
-
-  padding: 30px;
-
-  margin: 30px;
-  border: 4px red double;
   margin: auto;
+}
+#green {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border-radius: 50%;
+
+  margin: 20px;
+}
+
+#red {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 20px;
+}
+#yellow {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  margin: 20px;
 }
